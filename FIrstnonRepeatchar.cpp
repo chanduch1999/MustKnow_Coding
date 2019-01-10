@@ -16,3 +16,5 @@ public:
     }
 };
 // https://leetcode.com/problems/first-unique-character-in-a-string/submissions/
+// Eventhough the code takes less time still the complexity can be reduced check this
+//https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
