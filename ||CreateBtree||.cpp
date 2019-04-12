@@ -25,3 +25,13 @@ struct node *newNode(int item)
 } 
 struct node *root = newNode(12); 
 root->left = newNode(10);  
+//or
+struct Node* newNode(int key) 
+{ 
+    struct Node* node = new Node; 
+    node->key = key; 
+    node->left = node->right = NULL; 
+    return node; 
+} 
+Node *root = newNode(1); 
+root->left = newNode(2); 
