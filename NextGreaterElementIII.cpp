@@ -32,7 +32,7 @@ class Solution {
 
               long long x = 0;
               geek >> x;
-              if (x > INT_MAX)
+              if (x > INT_MAX) //To check if there is 'int'eger overflow
                 return -1;
               return (int) x;
 
@@ -45,3 +45,6 @@ class Solution {
       return -1;
     }
 };
+//https://leetcode.com/problems/next-greater-element-iii/submissions/
+//Alternative - https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
+
