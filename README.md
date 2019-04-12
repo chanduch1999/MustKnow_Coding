@@ -4,4 +4,5 @@ This repository includes the basic and must know coding questions of all types f
 [![Extract 2 Non repeated Nos from repeated in O(1) space](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/Extract_2_non_repeat_no.cpp)](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/Extract_2_non_repeat_no.cpp)\
 [![Find next greater number with same set of digits](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/NextGreaterElementIII.cpp)](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/NextGreaterElementIII.cpp)\
 [![Dutch National Flag (0,1,2 - sort )](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/DutchNationalFlag.cpp)](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/DutchNationalFlag.cpp)\
+[![Find the set bits](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/Set_bits.cpp)](https://github.com/sreejithsankar55/MustKnow_Coding/blob/master/Set_bits.cpp)\
 Feel free to contribute :)
