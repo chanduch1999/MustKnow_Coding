@@ -20,9 +20,9 @@ class Solution {
         }
     }
     int numIslands(vector < vector < char >> & grid) {
-        if ((int) grid.size() == 0)
+        if ((int) grid.size() == 0) //if input is empty this condition is mandatory
             return 0;
-        size_t col = grid[0].size(), row = grid.size();
+        int col = grid[0].size(), row = grid.size();
         ro = row;
         co = col;
 
