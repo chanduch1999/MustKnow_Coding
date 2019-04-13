@@ -31,6 +31,7 @@ vector<vector<int> > Solution::verticalOrderTraversal(TreeNode* A) {
             v.push_back(i.second);
         return v;
 }
-//https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/ "(order maintained)"
-//https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/ "(order not maintained)"
+//https://www.geeksforgeeks.org/print-binary-tree-vertical-order/ "(no maps)"
+//(Best)--https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/ "(order maintained)"
+//https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/ "(with maps order not maintained)"
 //https://www.interviewbit.com/problems/vertical-order-traversal-of-binary-tree/
