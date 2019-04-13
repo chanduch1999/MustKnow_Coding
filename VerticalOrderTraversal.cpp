@@ -10,7 +10,7 @@
 vector<vector<int> > Solution::verticalOrderTraversal(TreeNode* A) {
         queue < pair <TreeNode*,int> > q;
          vector < vector < int > > v;
-         if (!A) 
+         if (!A) //Don't forget
             return v; 
         int len=0;
         map < int , vector < int > > ma;
@@ -31,7 +31,7 @@ vector<vector<int> > Solution::verticalOrderTraversal(TreeNode* A) {
             v.push_back(i.second);
         return v;
 }
-//https://www.geeksforgeeks.org/print-binary-tree-vertical-order/ "(no maps)"
+//https://www.geeksforgeeks.org/print-binary-tree-vertical-order/ "(no maps)"get line numbers and print when line number occurs
 //(Best)--https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/ "(order maintained)"
 //https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/ "(with maps order not maintained)"
 //https://www.interviewbit.com/problems/vertical-order-traversal-of-binary-tree/
