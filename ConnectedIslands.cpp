@@ -1,3 +1,4 @@
+//Here connected means connection in North south east west in leetcode, in geeks for geeks all 8 sides .
 class Solution {
     public:
         int c = 0, ro, co;
